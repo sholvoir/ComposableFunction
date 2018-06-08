@@ -1,0 +1,43 @@
+.title {
+    text-align: right;
+    margin: 10px 0;
+}
+.func {
+    display: inline-block;
+    padding: 1px;
+    vertical-align: middle;
+}
+.placeHolder {
+    display: inline-block;
+    vertical-align: middle;
+    height: 1em;
+    width: 64px;
+    background: #A0A0A0;
+}
+.thatis {
+    display: flex;
+    align-items: center;
+    min-width: 600px;
+    height: 240px;
+    background: #E0E0E0;
+    border: 1px solid black;
+    padding: 3px;
+}
+.thatis > .placeHolder {
+    min-width: 100%;
+    height: 100%;
+}
+.number {
+    width: 58px;
+    text-align: center;
+}
+.result {
+    margin: 10px 0;
+}
+.icon {
+    display: inline-block;
+    margin: 3px 3px;
+    width: 32px;
+    height: 32px;
+    background: rgb(196, 248, 166)
+}
