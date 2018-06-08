@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 var __dirname;
 const srcDir = path.resolve(__dirname, 'src');
-const distDir = path.resolve(__dirname, 'public');
+const distDir = path.resolve(__dirname, '../sholvoir.github.io');
 
 const urlLoader = {
     loader: 'url-loader',
